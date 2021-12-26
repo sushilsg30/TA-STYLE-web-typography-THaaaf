@@ -1,0 +1,215 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Custom Styles */
+body {
+    font-family: 'Karla', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'DM Serif Display', serif;
+}
+.container {
+    max-width: 900px;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* header */
+.header {
+    margin: 22px 0;
+}
+.header h1 {
+    font-size: 28px;
+}
+.nav  a  {
+    text-decoration: none;
+    color: #737078;
+    font-size: 18px;
+    margin-left: 12px;
+    font-weight: 600;
+}
+.anchor {
+    border: 1px solid #737078;
+    padding: 5px;
+}
+/* Aticles */
+.article-hero {
+    background-color: #2D2640;
+}
+.article-hero-para {
+    text-align: start;
+    color: white;
+    width: 50%;
+    height: 300px;
+}
+.article-hero-para  .hr{
+    width: 30%;
+    text-align: left;
+    margin-bottom: 32px;
+    color: white;
+    margin-top: 40px;
+
+}
+.article-hero-para h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+.article-hero-para a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 32px;
+    color: white;
+}
+.section {
+    position: relative;
+}
+.article-img  img {
+    width: 300px;
+}
+.article-img {
+    position: absolute;
+    right: 150px;
+    top: 40px;
+}
+.article-2 {
+    margin-top: 100px;
+
+}
+.article-2-img img {
+    width: 400px;
+    margin-right: 50px;
+}
+.article-2-para h2 {
+    font-size: 32px;
+    margin-bottom: 1px;
+}
+.article-2-para p {
+    color: #B0AEB3;
+
+}
+.article-2-para a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 32px;
+    color:#B0AEB3;
+    border: 1px solid #B0AEB3;
+    padding: 6px;
+}
+.article-3 {
+    margin-top: 48px;
+    text-align: left;
+}
+.article-3 h2 {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+.article-3 .hr {
+    width: 130px;
+    margin-bottom: 12px;
+}
+.article-3boxes-middle {
+      margin: 0 48px;
+}
+.article-3boxes h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.article-3boxes a{
+    color: #8AB4F0;
+}
+.last-box {
+    margin-top: 40px;
+    background-color: #2D2640;
+    height: 150px;
+}
+.last-box h2 {
+     font-size: 32px;
+     color: white;
+}
+.last-box2 a {
+    text-decoration: none;
+    color: white;
+    border: white 1px solid;
+    padding: 5px;
+}
+.last-box-footer {
+    margin-top: 32px;
+}
+.last-box-footer h2 {
+      font-size: 24px;
+}
+.last-box-footer a {
+    color: #9B9A9F;
+}
+.bottom-info {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bottom-info-nav a {
+    text-decoration: none;
+    color: gray;
+    margin-left: 12px;
+}
+.footer {
+    background-color: #2D2640;
+    padding: 32px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
